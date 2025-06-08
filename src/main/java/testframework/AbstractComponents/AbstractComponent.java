@@ -23,7 +23,6 @@ public class AbstractComponent {
 		PageFactory.initElements(driver, this);
 	}
 
-	//My Order page locators
 	@FindBy(css="[routerlink*='cart']")
 	WebElement cartHeader;
 	
